@@ -14,7 +14,7 @@ Go to directory, where is directory with `mvccore` core package and run:
 
 #### Windows
 ```cmd
-:: create new mpty directory "mvccore-ext-debug-js"
+:: create new empty directory "mvccore-ext-debug-js"
 mkdir mvccore-ext-debug-js
 :: clone this repository into newly created folder
 git clone https://github.com/mvccore/ext-debug-js mvccore-ext-debug-js
@@ -33,7 +33,7 @@ call node install.js
 #### Linux
 ```shell
 #!/bin/bash
-# create new mpty directory "mvccore-ext-debug-js"
+# create new empty directory "mvccore-ext-debug-js"
 mkdir mvccore-ext-debug-js
 # clone this repository into newly created folder
 git clone https://github.com/mvccore/ext-debug-js mvccore-ext-debug-js
