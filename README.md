@@ -6,12 +6,12 @@ Library to compile custom javascripts for MvcCore built in debug bar.
 Go to directory, where you want to place and add to base MvcCore form javascript files you custom javascript support code and run:
 #### Windows
 ```cmd
-:: create new mpty directory "mvccore-ext-form-js"
-mkdir mvccore-ext-form-js
+:: create new mpty directory "mvccore-ext-debug-js"
+mkdir mvccore-ext-debug-js
 :: clone this repository into newly created folder
-git clone https://github.com/mvccore/ext-form-js mvccore-ext-form-js
+git clone https://github.com/mvccore/ext-debug-js mvccore-ext-debug-js
 :: go to repository folder
-cd mvccore-ext-form-js
+cd mvccore-ext-debug-js
 :: go to repository latest release (optional)
 php -r "$a=shell_exec('git ls-remote --tags .');$b=explode('refs/tags/',$a);$c=trim($b[count($b)-1]);shell_exec('git checkout tags/'.$c);"
 :: remove whole '.git' directory, git history (you don't need this repository history in your project repo)
@@ -20,17 +20,16 @@ rmdir /S /Q .git
 call npm update
 :: call this node package install script
 call node install.js
-:: go to start parent directory
-cd ../..
+:: follow instructions on the screen
 ```
 #### Linux
 ```shell
-# create new mpty directory "mvccore-ext-form-js"
-mkdir mvccore-ext-form-js
+# create new mpty directory "mvccore-ext-debug-js"
+mkdir mvccore-ext-debug-js
 # clone this repository into newly created folder
-git clone https://github.com/mvccore/ext-form-js mvccore-ext-form-js
+git clone https://github.com/mvccore/ext-form-js mvccore-ext-debug-js
 # go to repository folder
-cd mvccore-ext-form-js
+cd mvccore-ext-debug-js
 # go to repository latest release (optional)
 php -r "$a=shell_exec('git ls-remote --tags .');$b=explode('refs/tags/',$a);$c=trim($b[count($b)-1]);shell_exec('git checkout tags/'.$c);"
 # remove whole '.git' directory, git history (you don't need this repository history in your project repo)
@@ -39,6 +38,5 @@ rm -r -f .git
 sh -c "npm update"
 # call this node package install script
 sh -c "node install.js"
-# go to start parent directory
-cd ../..
+# follow instructions on the screen
 ```
