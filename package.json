@@ -1,5 +1,5 @@
 {
-  "name": "mvccore-debug-js",
+  "name": "@mvccore/debug-js",
   "version": "5.0.0",
   "keywords": [
     "MvcCore Debug javascript",
@@ -11,7 +11,10 @@
     "type": "git",
     "url": "https://github.com/mvccore/ext-debug-js.git"
   },
-  "license": "BSD-3-Clause",
+  "license": "BSD-3",
+  "publishConfig": {
+    "access": "public"
+  },
   "author": {
     "name": "Tom Flídr",
     "email": "tomflidr@gmail.com",
