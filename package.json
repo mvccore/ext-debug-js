@@ -5,7 +5,7 @@
     "MvcCore Debug javascript",
     "MvcCore Debug JS"
   ],
-  "description": "Create custom javascripts for MvcCore built in debug bar.",
+  "description": "MvcCore - Extension - Debug - Javascripts - HTML/CSS/JavaScript assets for MvcCore built in debug bar.",
   "homepage": "https://github.com/mvccore/ext-debug-js",
   "repository": {
     "type": "git",
